@@ -28,4 +28,7 @@ for link in workout_links:
     buttons = driver.find_elements_by_xpath("//button")
     buttons[0].click()
 
+    # TODO: implement more neatly with `WebDriverWait`
+    time.sleep(1)
+
     driver.find_element_by_xpath("//*[contains(text(), 'Download as TCX')]").click()
