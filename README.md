@@ -1,6 +1,5 @@
 # About
-A script to automatically export fitness workouts from Under Armour's map my fitness,
-in `TCX` format.
+A script to export individual `TCX` workout files from mapmyfitness.com
 
 # Workflow
 1. Download `csv` with links to all individual workouts from https://www.mapmyfitness.
